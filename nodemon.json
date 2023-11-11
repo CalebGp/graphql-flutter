@@ -1,7 +1,0 @@
-{
-    "env": {
-        "mongoDatabase": "GraphQlCluster",
-        "mongoUserName": "caleb",
-        "mongoUserPassword": "rOklIS3YbotvhyDE"
-    }
-}

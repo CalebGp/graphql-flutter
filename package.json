@@ -1,11 +1,9 @@
 {
-  "name": "graphql",
-  "version": "15.8.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node app.js"
-  },
+  "name": "graphql-flutter",
+  "version": "1.0.0",
+  "description": "graphql-flutter",
+  "main": "app.js",
+  "author": "Caleb",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
@@ -13,6 +11,11 @@
     "express-graphql": "^0.12.0",
     "graphql": "^15.8.0",
     "lodash": "^4.17.21",
-    "mongoose": "^7.6.3"
+    "mongodb": "^6.2.0",
+    "mongoose": "^6.0.1",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "node app.js"
   }
 }
