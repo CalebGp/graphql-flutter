@@ -76,7 +76,7 @@ class _AddUserPageState extends State<AddUserPage> {
                     print(data);
                     setState(() {
                       _isSaving = false;
-                      _toggleHobby();
+                      _visibleHobby = true;
                       currentUserId = data!["CreateUser"]["id"];
                     });
                   },
